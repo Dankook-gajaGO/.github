@@ -43,7 +43,7 @@
 ## 📱 시연 화면
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Dankook-gajaGO/gajaGO-web/develop/docs/images/gajago-app-preview.svg" alt="가자GO 실제 시연 화면 흐름" width="100%" />
+  <img src="https://raw.githubusercontent.com/Dankook-gajaGO/.github/main/profile/images/gajago-app-preview.svg" alt="가자GO 실제 시연 화면 흐름" width="100%" />
 </p>
 
 ---

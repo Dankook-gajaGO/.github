@@ -96,6 +96,50 @@
 
 ---
 
+## 📑 프로젝트 결과물
+
+### ▶ 앱 실행
+
+<table>
+  <tr>
+    <th align="center" width="50%">🤖 Android</th>
+    <th align="center" width="50%">🍎 iOS (iPhone)</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://raw.githubusercontent.com/Dankook-gajaGO/.github/main/profile/images/qr/android.png" width="180" alt="Android APK QR" /></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/Dankook-gajaGO/.github/main/profile/images/qr/ios.png" width="180" alt="iOS 웹 QR" /></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Dankook-gajaGO/gajaGO-web/releases/latest/download/gajaGO-v1.0.0.apk"><b>APK 다운로드</b></a><br/>QR을 찍어 설치</td>
+    <td align="center"><a href="https://gaja-go-web.vercel.app"><b>웹에서 바로 사용</b></a><br/>설치 없이 Safari로 실행</td>
+  </tr>
+</table>
+
+### 🎬 시연 영상
+
+<p align="center">
+  <a href="https://youtu.be/k7LBG6oswo4"><img src="https://img.youtube.com/vi/k7LBG6oswo4/hqdefault.jpg" width="480" alt="가자GO 시연 영상" /></a>
+  <br/><a href="https://youtu.be/k7LBG6oswo4">https://youtu.be/k7LBG6oswo4</a>
+</p>
+
+### 📄 문서
+
+| 자료 | 링크 |
+| --- | --- |
+| 프로젝트 결과보고서 (PDF) | [가자GO 최종 결과보고서](https://github.com/Dankook-gajaGO/.github/blob/main/profile/docs/gajaGO_final_report.pdf) |
+| 포스터 (PDF) | [가자GO 포스터](https://github.com/Dankook-gajaGO/.github/blob/main/profile/docs/gajaGO_poster.pdf) |
+| API 명세 | [gajaGo-server/docs/API.md](https://github.com/Dankook-gajaGO/gajaGo-server/blob/main/docs/API.md) |
+| 배포 가이드 | [gajaGo-server/deploy/README.md](https://github.com/Dankook-gajaGO/gajaGo-server/blob/main/deploy/README.md) |
+
+### 💻 소스 코드
+
+| 레포 | 내용 |
+| --- | --- |
+| [gajaGO-web](https://github.com/Dankook-gajaGO/gajaGO-web) | 모바일 앱 (React Native · Expo) |
+| [gajaGo-server](https://github.com/Dankook-gajaGO/gajaGo-server) | Spring Boot API · FastAPI 교통 챗봇 · 축제 수집기 |
+
+---
+
 <p align="center"><b>Team 가자GO</b> · 단국대학교</p>
 
 <p align="center">

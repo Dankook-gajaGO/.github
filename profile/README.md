@@ -50,7 +50,7 @@
 | 🚇 노선·환승이 복잡하고, 짐이 많거나 걷기 힘들 땐 최단 경로가 정답이 아님 | 🤖 **자연어로 상황을 말하면** Gemini가 조건에 맞는 경로를 골라 이유와 함께 추천 |
 | 🥜 메뉴 이름과 재료를 읽을 수 없어 알레르기 판단이 어려움 | 🍜 알레르기 11종 + 식단 필터로 **먹을 수 있는 음식만** 표시, 숨은 성분까지 매핑 |
 | 🗣 한국어를 못해서 식당 직원에게 설명하기 어려움 | 🪪 알레르기·도움 요청을 **큰 한국어 카드**로 화면 그대로 보여주기 |
-| 💸 환율 계산, 일행과 비용 나누기가 번거로움 | 💰 11개 통화 환산, N빵, **영수증 이미지 공유**까지 되는 여행 가계부 |
+| 💸 환율 계산, 일행과 비용 나누기가 번거로움 | 💰 10개 외화 환산, N빵, **영수증 이미지 공유**까지 되는 여행 가계부 |
 
 > **가입 없이 바로 사용하세요.** 모든 탐색 기능은 비회원도 쓸 수 있고, 저장·기록할 때만 로그인을 요청합니다.
 
@@ -72,9 +72,20 @@
 
 ## 📱 시연 화면
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Dankook-gajaGO/.github/main/profile/images/gajago-app-preview.svg" alt="가자GO 실제 시연 화면 흐름" width="100%" />
-</p>
+<table>
+  <tr>
+    <td align="center"><img src="https://raw.githubusercontent.com/Dankook-gajaGO/.github/main/profile/images/screens/home.png" width="190" alt="홈" /><br /><b>홈</b></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/Dankook-gajaGO/.github/main/profile/images/screens/event.png" width="190" alt="행사 상세" /><br /><b>행사 상세</b></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/Dankook-gajaGO/.github/main/profile/images/screens/route.png" width="190" alt="교통 챗봇 경로" /><br /><b>교통 챗봇 경로</b></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/Dankook-gajaGO/.github/main/profile/images/screens/food.png" width="190" alt="음식 알레르기" /><br /><b>음식 알레르기</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://raw.githubusercontent.com/Dankook-gajaGO/.github/main/profile/images/screens/facilities.png" width="190" alt="주변 편의시설" /><br /><b>주변 편의시설</b></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/Dankook-gajaGO/.github/main/profile/images/screens/expense.png" width="190" alt="여행 가계부" /><br /><b>여행 가계부</b></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/Dankook-gajaGO/.github/main/profile/images/screens/schedule.png" width="190" alt="내 일정" /><br /><b>내 일정</b></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/Dankook-gajaGO/.github/main/profile/images/screens/calendar.png" width="190" alt="캘린더" /><br /><b>캘린더</b></td>
+  </tr>
+</table>
 
 ---
 
@@ -82,12 +93,12 @@
 
 | 영역 | 핵심 기능 | 비회원 | 회원 |
 | --- | --- | :---: | :---: |
-| 🎉 행사·축제 | 최근·곧 열리는 행사 추천, 상세, 지도(구글·카카오·네이버), 행사장으로 바로 길찾기 | ✅ | ✅ |
-| 🚇 AI 교통 챗봇 | 자연어 길찾기, 현재 위치 출발, Gemini 경로 순위·추천 이유 | ✅ | ✅ |
+| 🎉 행사·축제 | 최근·곧 열리는 행사 추천, 상세, 지도(구글·카카오), 행사장으로 바로 길찾기 | ✅ | ✅ |
+| 🚇 AI 교통 챗봇 | 자연어 길찾기, 현재 위치 출발, Gemini 경로 순위·추천 이유, 회원은 경로 기록 저장 | ✅ | ✅ |
 | 🍜 음식 알레르기 | 알레르기 11종 + 식단·취향 필터 (안 매운·채식·돼지고기·술 없음) | ✅ | ✅ |
 | 🪪 보여주기 카드 | 알레르기·도움 요청을 한국어 카드로 제시 | ✅ | ✅ |
 | 🏧 편의시설 | 은행·ATM·편의점·화장실·약국·지하철역·환전소 | ✅ | ✅ |
-| 💰 여행 가계부 | 11개 통화 환산, 여행별 집계, N빵, 영수증 이미지 공유 | N빵 | ✅ |
+| 💰 여행 가계부 | 10개 외화 환산, 여행별 집계, N빵, 영수증 이미지 공유 | ✅ (앱을 끄면 삭제) | ✅ (서버 저장) |
 | 📅 일정·캘린더 | 행사·경로·메모 저장, 여행 N일차, 이날 가계부, 선택형 알림 | - | ✅ |
 | 🆘 긴급 | 112·119·1330 원터치 전화, 도움 요청 카드 | ✅ | ✅ |
 
@@ -98,7 +109,7 @@
 1. *“단국대에서 서울역 가려면 짐이 많은데 어떻게 가?”* 처럼 자연어로 질문합니다.
 2. Gemini가 **출발지 · 목적지 · 사용자 조건**(짐, 환승, 도보 등)을 추출합니다. 출발지가 없거나 “여기서”라고 하면 GPS 현재 위치를 씁니다.
 3. TMAP 장소 검색으로 후보를 보여주고, 사용자가 확정합니다.
-4. TMAP 대중교통 경로 3개를 받아 **Gemini가 조건에 맞게 1~3순위와 이유**를 붙입니다.
+4. TMAP 대중교통 경로 3개를 받아 **Gemini가 조건에 맞게 1~3순위와 이유**를 붙입니다. TMAP이 한도 초과·오류면 **카카오 대중교통 경로로 다시 검색**합니다.
 5. 경로 상세에서 도보·버스·지하철 단계를 확인하고, 지도 앱으로 열거나 일정에 저장할 수 있습니다.
 
 </details>
@@ -146,6 +157,7 @@
 | 고민 | 해결 |
 | --- | --- |
 | 🔐 **API 키 보호** | 앱은 Spring 서버만 호출합니다. Gemini·TMAP 키와 AI 호출은 서버에만 두어 클라이언트에 노출되지 않습니다. |
+| 🚏 **교통 API 한도 초과** | TMAP 대중교통이 한도를 넘거나 실패하면 **카카오 대중교통 경로로 자동 전환**하고, 결과를 같은 형식으로 바꿔 앱 수정 없이 사용합니다. |
 | 🔁 **Gemini 무료 한도 초과** | 여러 모델을 순서대로 지정하고, 한도 초과(429)나 혼잡(503)이면 **다음 모델로 자동 전환**합니다. |
 | 📉 **TourAPI 일일 호출 한도** | 이미 상세 정보가 있는 행사는 상세 요청을 건너뛰고 **새 행사만 요청**해, 재시작 때마다 반복되던 호출을 목록 조회 몇 번으로 줄였습니다. |
 | 🙋 **가입 장벽 낮추기** | 요청을 `auth: true / false / optional`로 나눴습니다. 만료된 토큰은 자동으로 지우고 비회원으로 돌아가며, 저장할 때만 로그인 후 원래 화면으로 복귀합니다. |
@@ -157,7 +169,7 @@
 ## 🏗 시스템 아키텍처
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Dankook-gajaGO/.github/main/profile/images/architecture.png" alt="가자GO 시스템 아키텍처" width="90%" />
+  <img src="https://raw.githubusercontent.com/Dankook-gajaGO/.github/main/profile/images/architecture.webp" alt="가자GO 시스템 아키텍처" width="100%" />
 </p>
 
 ---
@@ -168,7 +180,7 @@
 | --- | --- |
 | Mobile | React Native, Expo, TypeScript, React Navigation, AsyncStorage, Expo Location, Expo Notifications |
 | Backend | Java 17, Spring Boot, Spring Security (JWT · BCrypt), Spring Data JPA, MySQL |
-| AI / Transport | FastAPI, Gemini API, TMAP POI · Transit API |
+| AI / Transport | FastAPI, Gemini API, TMAP POI · Transit API, Kakao 대중교통 경로(예비) |
 | Data | 한국관광공사 TourAPI, 환율 API |
 | Infra | Docker Compose, AWS EC2, EAS Build |
 
